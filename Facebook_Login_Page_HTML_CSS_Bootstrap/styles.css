@@ -1,0 +1,23 @@
+body {
+    background: #f0f2f5;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.login-box {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+    border-radius: 8px;
+}
