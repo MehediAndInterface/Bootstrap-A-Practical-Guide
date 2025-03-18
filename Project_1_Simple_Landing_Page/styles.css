@@ -1,0 +1,47 @@
+.full-height {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero Section */
+.hero {
+    background: url('./background.jpg') no-repeat center center/cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+main {
+    flex-grow: 1;
+}
+
+.feature-box {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    background: #f4f4f4;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
